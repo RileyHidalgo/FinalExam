@@ -12,9 +12,12 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;}
+#display{
+    text-align: center;
+
 }
+
     #effect{
         align-self: center;
     }
@@ -27,15 +30,26 @@ footer{
 #thumb-bar{
     display: flex;
     align-content: center;
-    justify-content: center;
-    width: 40%;
-    height: 90%;
-    margin-left: 450px;
+    margin-right: 350px;
+    margin-left: 350px;
+    
+ 
+   
 
 }
+  
 
+@media screen and (min-width: 640px){ 
+     /* footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        padding: 10px;
+        
+      
+    }  */
 
-  @media screen and (min-width:640px){ 
 
 
 
