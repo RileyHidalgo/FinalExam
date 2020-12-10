@@ -3,16 +3,34 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script defer src="js/javascript.js"></script>
 </head>
 
 <body>
-    <h1>Welcome to our gallery</h1>
-    <p>Hover on any thumbnail to see it bigger</p>
-    <div id="thumb-bar"> </div>
-    <img class="displayed-img">
-    <label>What effect do you want to apply?</label>
-    <input id="effect" type="text">
-    <button>Submit</button>
+    <header>
+        <h1>Welcome to our gallery</h1>
+        <p>Hover on any thumbnail to see it bigger</p>
+    </header>
+    
+    <div id="thumb-bar"> 
+        <img id="pic1" src="images/pic1.jpg" width='100' height='100' alt='BCIT logo'>
+        <img id="pic2" src="images/pic2.jpg" width='100' height='100' alt='BCIT logo'>
+        <img id="pic3" src="images/pic3.jpg" width='100' height='100' alt='BCIT logo'>
+        <img id="pic4" src="images/pic4.jpg" width='100' height='100' alt='BCIT logo'>
+        <img id="pic5" src="images/pic5.jpg" width='100' height='100' alt='BCIT logo'>
+
+    </div>
+    <footer>
+        <img class="displayed-img" src="images/pic5.jpg" width='100' height='100' alt='BCIT logo'>
+  
+    
+        <label id="labels">What effect do you want to apply?</label>
+        <input id="effect" type="text">
+        <button id="btn">Submit</button>
+    </footer>
 </body>
 
 </html>
